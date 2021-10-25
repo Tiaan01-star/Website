@@ -1,12 +1,88 @@
 body{
-    background-color:black;
+    background-color:rgb(186,182,163);
     color:white;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.logo{
+    position: fixed;
+    top: 50px;
+    left: 30px;
 }
 h1{
-font: 100;
+    font-size: 50px;
+    justify-content: center;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: black;
+    text-align: center;
+}
+h1.head
+{
+padding: 30px;
+width: 1300px;
+height: 74px;
+background-color: rgb(154,67,0);
+position: relative;
+top: -30px;
 }
 p {
     font-size: 150px;
 }
+ul{
+    display: inline-block;  
+    overflow: hidden;  
+    background-color: rgba(255,153,66);
+    width: 700px;
+    height: 44px;
+    border-radius: 20px;
+    list-style-type: none;
+    position: relative;
+    top: -60px;
+    }
+li{
+    float: left;
+}
+li a{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 15px 30px;
+    text-decoration: none;
+}
+li a:hover{
+    background-color: rgb(154,67,0);
+}
+p{
+    color: black;
+    font-size: 20px;
+    text-align: center;
+}
+.search{
+    display: inline-block;  
+    overflow: hidden;  
+    background-color: white;
+    width: 300px;
+    height: 44px;
+    border-radius: 20px;
+    position: fixed;
+    right: 0;
+    top: 150px;
+    width: 5;
+    }
+    
+    h2{
+        color: black;
+        display: inline-block;  
+        overflow: hidden;  
+        background-color: white;
+        width: 400px;
+        height: 44px;
+        border-radius: 20px;
+        list-style-type: none;
+        position: relative;
+        top: 30px;
+        right: 250px;
+        text-align: center;
+        }
+ 
 
